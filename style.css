@@ -1,0 +1,35 @@
+body {
+  background: aquamarine;
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+}
+section {
+  display: flex;
+}
+.left {
+  height: 90vh;
+  width: 65vw;
+  background: aliceblue;
+}
+p {
+  font-size: 20px;
+}
+.right {
+  height: 200px;
+  width: 32vw;
+  margin: 5px;
+  background: aliceblue;
+}
+.hidden {
+  display: none;
+}
+form {
+  padding: 20px;
+}
+input,
+button {
+  height: 40px;
+  padding: 4px;
+}
